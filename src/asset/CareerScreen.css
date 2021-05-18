@@ -1,0 +1,55 @@
+.width1 {
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 35px;
+  font-weight: 900;
+  font-family: "Montserrat", "san-serif";
+  color: #2f2651;
+  text-transform: initial;
+  letter-spacing: 1px;
+  text-align: center;
+}
+.section1 {
+  max-width: 1558px;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.section2 {
+  max-width: 1558px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  overflow: hidden;
+  margin-left: 100px;
+}
+.section3 {
+  max-width: 1558px;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  display: flex !important;
+  flex-direction: row !important;
+  position: relative !important;
+}
+
+.section3 p {
+  margin-top: 20px;
+  font-size: 15px;
+  color: #3c174b;
+  font-weight: 900;
+}
+.width2 {
+  font-size: 14px;
+  color: #7a7490;
+}
+.background_color {
+  background-color: #f6f6f9;
+}
+.background_image {
+  background-image: url("../asset/Ellipse\ 6@1X.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 100%;
+  padding: 10px;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
