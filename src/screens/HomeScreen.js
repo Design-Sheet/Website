@@ -39,7 +39,7 @@ const HomeScreen = () => {
             <div className="" style={{textAlign:'center', padding:'2% 0%'}} id="how-it-works">
                 <h3 className='width1'>How it works</h3>
                 <p className="width2" style={{textAlign:'center'}}> Explore photos, patterns, colors and gradients designed by the<br/>best designers or simply use yours.</p>
-                <video width="804" height="569" controls>
+                <video width="65%" height="56%" controls>
                     <source src="./images/how it.mp4" type="video/ogg"/>
                 </video>
                 <br/>
