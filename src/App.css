@@ -37,15 +37,20 @@
   }
 }
 
-.body{
-  
-  
+.important_background {
+  background-image: url('./asset/important_background.png') !important;
+  background-position: center !important;
+  background-size: contain !important;
+  z-index: 2;
+  max-width: 1558px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-
-
-
-
-
-
+.carousel-control-next-icon {
+  background-image: url('./asset/next\ button\ .png') !important;
+}
+.carousel-control-prev-icon {
+  background-image: url('./asset/next\ button\ other\ .png') !important;
+}
 /* review */

@@ -12,8 +12,8 @@ const CareerScreen = () => {
     return (
         <div className="">
             <Header/>
-
-             <Row className="section1 background_color">
+            <div className="important_background">
+             <Row className="section1  important_background">
                  <Col lg={5} sm={9} xs={9} className=" mt-5 mx-auto my-auto pt-5 pb-5">
                     <Image  src='./images/preview@1X.png' fluid/>
                  </Col>
@@ -27,10 +27,10 @@ const CareerScreen = () => {
 
              </Row>
 
-             <Row className="section2 background_color">
+             <Row className="section2 background_color ">
                  <Col className="mx-auto mt-5 pt-5 pb-3 mx-auto my-auto width1 "  ><p>Our Values</p></Col>
              </Row>
-             <Row className='section3 background_color px-auto' style={{textAlign:'center'}}>
+             <Row className='section3 background_color px-auto imortant_background' style={{textAlign:'center'}}>
                 <Col >
                      <Image src="./images/statistics.png" className=" background_image"></Image>
                      <br/>
@@ -54,6 +54,7 @@ const CareerScreen = () => {
                 </Col>
                 <br/>
              </Row>
+             </div>
             <Review/>
             <Socialmedia/>
             <Footer/>
