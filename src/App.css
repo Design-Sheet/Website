@@ -47,6 +47,15 @@
   margin-right: auto;
 }
 
+.important_background1 {
+  background-image: url('./asset/DesignSheets\ -\ Home\ –\ 1.png') !important;
+  background-position: center !important;
+  background-size: contain !important;
+  z-index: 3;
+  max-width: 1558px;
+  margin-left: auto;
+  margin-right: auto;
+}
 .carousel-control-next-icon {
   background-image: url('./asset/next\ button\ .png') !important;
 }

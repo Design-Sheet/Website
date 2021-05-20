@@ -17,7 +17,7 @@ import {
 
 const CareerScreen1 = () => {
   return (
-    <div className='' style={{border:"2px solid balck"}}>
+    <div className='' style={{ border: '2px solid balck' }}>
       <Header />
 
       <Row className='section1 background_color important_background'>
@@ -27,7 +27,10 @@ const CareerScreen1 = () => {
         <Col lg={4} sm={9} xs={9} className='mx-auto my-auto mt-5 pt-5'>
           <ListGroup>
             <h3 className='width1'>Our mission</h3>
-            <p className='width2' style={{ textAlign: 'center' ,fontSize:"1.2rem" }}>
+            <p
+              className='width2'
+              style={{ textAlign: 'center', fontSize: '1.2rem' }}
+            >
               {' '}
               We are a group of IITians, eager to solve problems with our
               technological focus and prowers. Our thirst for a better world is
@@ -48,11 +51,25 @@ const CareerScreen1 = () => {
             href='https://n6lcpj2e6wu.typeform.com/to/zEFYIK2K'
             className='text-color '
           >
-            <div
+            {/* <div
               style={{ fontSize: '16px', fontWeight: 'bold', color: '#2f2651' }}
             >
               Register
-            </div>
+            </div> */}
+            <Button
+              style={{
+                fontSize: '18px',
+                fontWeight: 'bold',
+                color: 'rgb(62,67,129)',
+                backgroundColor: 'white',
+                borderRadius: '30px 30px ',
+                border: '1px solid rgb(62,67,129)',
+                textTransform: 'initial',
+              }}
+              variant='primary'
+            >
+              Apply Now >
+            </Button>
           </Nav.Link>
         </h3>
       </Row>

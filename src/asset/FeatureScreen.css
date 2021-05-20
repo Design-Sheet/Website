@@ -1,16 +1,22 @@
-.background_color{
-  background-color:#F6F6F9 ;
+.background_color {
+  background-color: #f6f6f9;
 }
-.title{
+.feature {
+  max-width: 1558px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  margin-top: 10px;
+}
+.title {
   max-width: 1558px;
   margin-left: auto;
   margin-right: auto;
-  background-color: #F6F6F9;
+  /* background-color: #F6F6F9; */
 }
-.title p{
+.title p {
   margin-left: auto;
   margin-right: auto;
-  color:#2F2651;
-  font-size:20px ;
+  color: #2f2651;
+  font-size: 20px;
   font-weight: 900;
 }

@@ -26,20 +26,20 @@ const Socialmedia = () => {
         Register now to get 2 months
         <br /> free subscription
         <Nav.Link href='https://n6lcpj2e6wu.typeform.com/to/zEFYIK2K'>
-          <div
-          
-          >
-            <Button 
+          <div>
+            <Button
               style={{
-              fontSize: '16px',
-              fontWeight: 'bold',
-              color: 'white',
-              backgroundColor:"rgb(62,67,129)",
-              borderRadius:'30px 30px ',
-              
-              
-            }}
-            variant='primary'>Register</Button>
+                fontSize: '18px',
+                fontWeight: 'bold',
+                color: 'white',
+                backgroundColor: 'rgb(62,67,129)',
+                borderRadius: '30px 30px ',
+                textTransform: 'initial',
+              }}
+              variant='primary'
+            >
+              Register
+            </Button>
           </div>
         </Nav.Link>
       </h1>

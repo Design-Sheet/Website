@@ -4,7 +4,7 @@ import '../asset/Review.css'
 
 const Review = () => {
   return (
-    <Carousel className='carousel'>
+    <Carousel className='carousel important_background1'>
       <Carousel.Item fluid>
         <p>What people say about us</p>
         <p>Student</p>

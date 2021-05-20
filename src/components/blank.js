@@ -3,7 +3,7 @@ import '../asset/Socialmedia.css'
 
 const Socialmedia = () => {
   return (
-    <div className='socialmedia'>
+    <div className='socialmedia important_background'>
       <h3
         className='socialmedia_title'
         style={{ paddingTop: '80px', fontSize: '2rem' }}

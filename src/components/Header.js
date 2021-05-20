@@ -15,7 +15,7 @@ const Header = () => {
   return (
     <div className='nav_dimension'>
       <Navbar
-        s
+        fixed='top'
         className='pt-0 pb-0  nav_color position '
         collapseOnSelect
         expand='md'
@@ -49,11 +49,22 @@ const Header = () => {
             <Nav.Link href='/career1' className='text-color'>
               <div className='hover'>Careers</div>
             </Nav.Link>
-            <Nav.Link
-              href='https://n6lcpj2e6wu.typeform.com/to/zEFYIK2K'
-              className='text-color '
-            >
-              <div className='hover'>Register</div>
+            <Nav.Link href='https://n6lcpj2e6wu.typeform.com/to/zEFYIK2K'>
+              <Button size="sm"
+                style={{
+                  fontSize: '17px',
+                  fontWeight: 'bold',
+                  color: 'rgb(62,67,129)',
+                  backgroundColor: 'white',
+                  borderRadius: '30px 30px ',
+                  border: '1px solid rgb(62,67,129)',
+                  textTransform: 'initial',
+                }}
+                variant='primary'
+              >
+                Register
+              </Button>
+              {/* <div className='hover'>Register</div> */}
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>

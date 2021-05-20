@@ -16,7 +16,7 @@ import { HashLink as Link } from 'react-router-hash-link'
 
 const HomeScreen = () => {
   return (
-    <div>
+    <div className='body_width'>
       <Header />
       <Row className='section1 background_color important_background'>
         <Col lg={4} sm={9} xs={9} className='mx-auto my-auto mt-5 pt-5'>
@@ -37,12 +37,13 @@ const HomeScreen = () => {
               <div style={{ marginLeft: '-5%' }}>
                 <Button
                   style={{
-                    fontSize: '16px',
+                    fontSize: '18px',
                     fontWeight: 'bold',
                     color: 'rgb(62,67,129)',
                     backgroundColor: 'white',
                     borderRadius: '30px 30px ',
                     border: '1px solid rgb(62,67,129)',
+                    textTransform: 'initial',
                   }}
                   variant='primary'
                 >
@@ -94,7 +95,7 @@ const HomeScreen = () => {
         </video>
         <br />
       </div>
-      <div className='carousel'>
+      <div className='carousel important_background1'>
         <h3 className='width1'>How DesignSheets help you?</h3>
         <Row>
           <Col lg={4} sm={9} xs={9} className='mx-auto my-auto mt-5 pt-5'>
@@ -111,7 +112,12 @@ const HomeScreen = () => {
                 ></Image>
                 Time saving
               </h4>
-              <div className='width2' style={{ textAlign: 'center' }}>
+              <div
+                className='width2'
+                style={{
+                  textAlign: 'center',
+                }}
+              >
                 {' '}
                 You can design your sheet/posters within
                 <br />
