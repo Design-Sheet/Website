@@ -27,7 +27,7 @@ const CareerScreen1 = () => {
         <Col lg={4} sm={9} xs={9} className='mx-auto my-auto mt-5 pt-5'>
           <ListGroup>
             <h3 className='width1'>Our mission</h3>
-            <p className='width2' style={{ textAlign: 'center' }}>
+            <p className='width2' style={{ textAlign: 'center' ,fontSize:"1.2rem" }}>
               {' '}
               We are a group of IITians, eager to solve problems with our
               technological focus and prowers. Our thirst for a better world is

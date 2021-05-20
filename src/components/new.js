@@ -15,8 +15,8 @@ const Review = () => {
                  </Col>
                  <Col lg={4} sm={9} xs={9} className="mx-auto my-auto mt-5 pt-5">
                     <ListGroup>
-                    <h4 className='width1'>We provide services for </h4>
-                    <div className="width2" style={{textAlign:'center'}}> All the design fields including:<br/>Architecture, Planning, Interior Design, Landscape, Graphic Design and Product Design.</div>
+                    <h4 className='width1'>We provide product for </h4>
+                    <div className="width2" style={{textAlign:'center'}}> All design fields namely:<br/>Architecture, Planning, Interior Design, Landscape,<br/> Graphic Design,and Product Design.</div>
                     </ListGroup>
                  </Col>
                  <Col xl={1} md={0} lg={0} sm={0}></Col>
@@ -26,8 +26,8 @@ const Review = () => {
                  
                  <Col lg={4} sm={9} xs={9} className="mx-auto my-auto mt-5 pt-5">
                     <ListGroup>
-                    <h4 className='width1'>Explore the best professional Templates</h4>
-                    <div className="width2" style={{textAlign:'center'}}> Discover 1000+ templates in each design filed which are designed by the best designers, guided by the experts in each profession. No need of searching your marble in thousands of marbles, we have provided detailed categories in each filed. 
+                    <h4 className='width1'>Choose from the best templates</h4>
+                    <div className="width2" style={{textAlign:'center'}}>Discover 1000+ templates specific to each design field, designed by the the best and guided by the experts. No need to search for that one marble among thousands others, with customized search results to find the you the right fit. 
                     </div>
                     </ListGroup>
                  </Col>
@@ -44,7 +44,7 @@ const Review = () => {
                  <Col lg={4} sm={9} xs={9} className="mx-auto my-auto mt-5 pt-5">
                     <ListGroup>
                     <h4 className='width1'>Simple but powerful workspace </h4>
-                    <div className="width2" style={{textAlign:'center'}}> completely user friendly and simple workspace, no need of prior knowledge to design. You can also start from the scratch  </div>
+                    <div className="width2" style={{textAlign:'center'}}> User friendly, simple and intuitive workspace, with no prior knowledge needed to design. Either choose from the 1000+templates or start from scratch</div>
                     </ListGroup>
                  </Col>
                  <Col xl={1} md={0} lg={0} sm={0}></Col>

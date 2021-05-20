@@ -5,7 +5,8 @@ import Review from '../components/Review'
 import Blank from '../components/blank'
 import Reg from '../components/register'
 import New from '../components/new'
-import { Row, Col, Image, ListGroup } from 'react-bootstrap'
+import { Nav, Button, Row, Col, Image, ListGroup } from 'react-bootstrap'
+import ReactStars from 'react-rating-stars-component'
 import '../asset/CareerScreen.css'
 import Socialmedia from '../components/Socialmedia'
 import '../asset/HomeScreen.css'
@@ -21,21 +22,34 @@ const HomeScreen = () => {
         <Col lg={4} sm={9} xs={9} className='mx-auto my-auto mt-5 pt-5'>
           <ListGroup>
             <h3 className='width1' style={{ textAlign: 'left' }}>
-              No more
+              Wished for a fast easy
               <br />
-              compromising with
+              way to make professional
               <br />
-              your presentation
+              presentation sheets?
               <br />
-              sheets.{' '}
             </h3>
-            <p
-              className='width2'
-              style={{ textAlign: 'center', marginLeft: '8%' }}
-            >
+            <p className='width2' style={{ textAlign: 'left' }}>
               {' '}
-              Design the best presentation sheets within the least time.
+              Complement your presentation with the best sheets made in a jiffy.
             </p>
+            <Nav.Link href='https://n6lcpj2e6wu.typeform.com/to/zEFYIK2K'>
+              <div style={{ marginLeft: '-5%' }}>
+                <Button
+                  style={{
+                    fontSize: '16px',
+                    fontWeight: 'bold',
+                    color: 'rgb(62,67,129)',
+                    backgroundColor: 'white',
+                    borderRadius: '30px 30px ',
+                    border: '1px solid rgb(62,67,129)',
+                  }}
+                  variant='primary'
+                >
+                  Register
+                </Button>
+              </div>
+            </Nav.Link>
           </ListGroup>
         </Col>
         <Col lg={5} sm={9} xs={9} className=' mt-5 mx-auto my-auto pt-5 pb-5'>
@@ -52,19 +66,19 @@ const HomeScreen = () => {
       >
         <p className='width2' style={{ textAlign: 'center' }}>
           {' '}
-          Here we present you the
+          we present
         </p>
         <h3 className='width1'> DesignSheets</h3>
         <p className='width2' style={{ textAlign: 'center' }}>
           {' '}
-          A web-based design tool, which helps you design the best professional
+          A web-based design tool, which helps you design professional
           <br />
-          presentation sheets easily and within the least time ever.
+          presentation sheets instantly.{' '}
         </p>
       </div>
       <New />
       <div
-        className='how-it-works'
+        className='how-it-works important_background'
         style={{ textAlign: 'center', padding: '2% 0%' }}
         id='how-it-works'
       >
@@ -81,11 +95,22 @@ const HomeScreen = () => {
         <br />
       </div>
       <div className='carousel'>
-        <h3 className='width1'>How DesignSheets helps you?</h3>
+        <h3 className='width1'>How DesignSheets help you?</h3>
         <Row>
           <Col lg={4} sm={9} xs={9} className='mx-auto my-auto mt-5 pt-5'>
             <ListGroup>
-              <h4 className='width1'>Time saving</h4>
+              <h4 className='width1'>
+                <Image
+                  src='./images/back-in-time.png'
+                  style={{
+                    width: '50px',
+                    height: '50px',
+                    marginRight: '10px',
+                    marginTop: '-10px',
+                  }}
+                ></Image>
+                Time saving
+              </h4>
               <div className='width2' style={{ textAlign: 'center' }}>
                 {' '}
                 You can design your sheet/posters within
@@ -96,7 +121,18 @@ const HomeScreen = () => {
           </Col>
           <Col lg={4} sm={9} xs={9} className='mx-auto my-auto mt-5 pt-5'>
             <ListGroup>
-              <h4 className='width1'>Best sheets</h4>
+              <h4 className='width1 before_icon'>
+                <Image
+                  src='./images/best-seller.png'
+                  style={{
+                    width: '55px',
+                    height: '55px',
+                    marginRight: '10px',
+                    marginTop: '-10px',
+                  }}
+                ></Image>
+                Best sheets
+              </h4>
               <div className='width2' style={{ textAlign: 'center' }}>
                 {' '}
                 You can now design the best
@@ -112,7 +148,18 @@ const HomeScreen = () => {
         <Row>
           <Col lg={4} sm={9} xs={9} className='mx-auto my-auto mt-5 pt-5'>
             <ListGroup>
-              <h4 className='width1'>Sheet layout</h4>
+              <h4 className='width1'>
+                <Image
+                  src='./images/layout.png'
+                  style={{
+                    width: '45px',
+                    height: '45px',
+                    marginRight: '10px',
+                    marginTop: '-10px',
+                  }}
+                ></Image>
+                Sheet layout
+              </h4>
               <div className='width2' style={{ textAlign: 'center' }}>
                 {' '}
                 We provide you the idea and layout to
@@ -123,7 +170,18 @@ const HomeScreen = () => {
           </Col>
           <Col lg={4} sm={9} xs={9} className='mx-auto my-auto mt-5 pt-5'>
             <ListGroup>
-              <h4 className='width1'>User friendly</h4>
+              <h4 className='width1'>
+                <Image
+                  src='./images/high-five (1).png'
+                  style={{
+                    width: '55px',
+                    height: '55px',
+                    marginRight: '10px',
+                    marginTop: '-26px',
+                  }}
+                ></Image>
+                User friendly
+              </h4>
               <div className='width2' style={{ textAlign: 'center' }}>
                 {' '}
                 The simplest powerful tool ever,
@@ -139,7 +197,18 @@ const HomeScreen = () => {
         <Row>
           <Col lg={4} sm={9} xs={9} className='mx-auto my-auto mt-5 pt-5'>
             <ListGroup>
-              <h4 className='width1'>Team Work</h4>
+              <h4 className='width1'>
+                <Image
+                  src='./images/network.png'
+                  style={{
+                    width: '50px',
+                    height: '50px',
+                    marginRight: '10px',
+                    marginTop: '-10px',
+                  }}
+                ></Image>
+                Team Work
+              </h4>
               <div className='width2' style={{ textAlign: 'center' }}>
                 {' '}
                 No more passing on the files, all your team
@@ -151,6 +220,15 @@ const HomeScreen = () => {
           <Col lg={4} sm={9} xs={9} className='mx-auto my-auto mt-5 pt-5'>
             <ListGroup>
               <h4 className='width1' style={{ textAlign: 'center' }}>
+                <Image
+                  src='./images/money-exchange.png'
+                  style={{
+                    width: '55px',
+                    height: '55px',
+                    marginRight: '10px',
+                    marginTop: '-10px',
+                  }}
+                ></Image>
                 Affordable
               </h4>
               <div className='width2' style={{ textAlign: 'center' }}>
@@ -169,6 +247,23 @@ const HomeScreen = () => {
       <Review />
 
       <Blank />
+      <Reg />
+      <div className='important_background'>
+        <div className='star '>
+          <p style={{ paddingTop: '30px' }}>How exciting is this software?</p>
+          <div className='star star1'>
+            <ReactStars
+              count={5}
+              size={50}
+              value={0}
+              edit={true}
+              half={true}
+              activeColor='#ffd700'
+            />
+          </div>
+        </div>
+      </div>
+
       <Socialmedia />
 
       <Footer />

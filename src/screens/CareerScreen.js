@@ -20,7 +20,7 @@ const CareerScreen = () => {
                  <Col lg={4} sm={9} xs={9} className="mx-auto my-auto mt-5 pt-5">
                     <ListGroup>
                     <h3 className='width1'>What we belive</h3>
-                    <p className="width2" style={{textAlign:'center'}}> A revolutionary innovation, a new medium for sheet design that is more effective and innovative, attempting to solve challenges through technology and imagination, tools development at every possible opportunity, and maximizing the productivity at the expense of our software.</p>
+                    <p className="width2" style={{textAlign:'center',fontSize:"1.2rem"}}> A revolutionary innovation, a new medium for sheet design that is more effective and innovative, attempting to solve challenges through technology and imagination, tools development at every possible opportunity, and maximizing the productivity at the expense of our software.</p>
                     </ListGroup>
                  </Col>
                  <Col xl={1} md={0} lg={0} sm={0}></Col>
